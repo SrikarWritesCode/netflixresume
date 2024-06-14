@@ -1,10 +1,10 @@
 // src/components/Projects.js
 import React from 'react';
-import './Projects.css'; // Create a CSS file for styling
+import './Projects.css';
 
 const projects = [
-  { title: 'HIV-1 Research', img: '/path-to-image.jpg' },
-  { title: 'Car Price Analysis', img: '/path-to-image.jpg' },
+  { title: 'HIV-1 Research', img: require('../assets/images/project1.png') },
+  { title: 'Car Price Analysis', img: require('../assets/images/project2.png') },
   // Add more projects
 ];
 

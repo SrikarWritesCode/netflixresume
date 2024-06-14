@@ -1,10 +1,10 @@
 // src/components/Experience.js
 import React from 'react';
-import './Experience.css'; // Create a CSS file for styling
+import './Experience.css';
 
 const experiences = [
-  { title: 'PhD Student', img: '/path-to-image.jpg' },
-  { title: 'Research Assistant', img: '/path-to-image.jpg' },
+  { title: 'PhD Student', img: require('../assets/images/experience1.png').default },
+  { title: 'Research Assistant', img: require('../assets/images/experience2.png').default },
   // Add more experiences
 ];
 

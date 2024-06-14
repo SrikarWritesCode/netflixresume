@@ -1,0 +1,14 @@
+/* src/components/Header.css */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #141414;
+    color: white;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  

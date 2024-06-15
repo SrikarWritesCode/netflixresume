@@ -19,7 +19,7 @@ const ServicesSection = () => {
           <div className="service" key={service.title}>
             <h3>{service.title}</h3>
             <p>{service.description}</p>
-            <button>Order Now</button>
+            <button>My Skill</button>
           </div>
         ))}
       </div>

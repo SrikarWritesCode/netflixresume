@@ -44,6 +44,16 @@ button {
   transition: background-color 0.3s, color 0.3s;
 }
 
+button.view-projects {
+  color: blue;
+  border-color: blue;
+}
+
+button.view-projects:hover {
+  background-color: blue;
+  color: black;
+}
+
 button:hover {
   background-color: red;
   color: black;
@@ -52,5 +62,38 @@ button:hover {
 .scroll-arrow {
   margin-top: 20px;
   font-size: 2em;
+  cursor: pointer;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: black;
+  border: 2px solid red;
+  padding: 20px;
+  text-align: center;
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+}
+
+.close-popup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  border: none;
+  color: black;
+  padding: 5px 10px;
   cursor: pointer;
 }

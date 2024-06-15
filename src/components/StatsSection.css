@@ -1,0 +1,17 @@
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .stat h3 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  .stat p {
+    margin: 5px 0 0 0;
+  }
+  

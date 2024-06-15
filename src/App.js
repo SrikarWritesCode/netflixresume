@@ -1,13 +1,15 @@
 import React from 'react';
 import Header from './components/Header';
-import Showcase from './components/Showcase';
+import MainSection from './components/MainSection';
+import ServicesSection from './components/ServicesSection';
 import './App.css';
 
 const App = () => {
   return (
     <div className="App">
       <Header />
-      <Showcase />
+      <ServicesSection />
+      <MainSection />
     </div>
   );
 };
